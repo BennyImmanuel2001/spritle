@@ -1,0 +1,55 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+
+<script  src="./client/js/ticketBooking.js"></script>
+
+<link rel="stylesheet" href="./client/css/ticketBooking.css"/>
+</head>
+<body>
+<div class="tabs" id="tab1">
+    <table id="trainDetails">
+        <thead>
+            <th>Train ID</th>
+            <th>Date</th>
+            <th>From</th>
+            <th>Destination</th>
+            <th>Booking</th>
+            
+        </thead>
+        <tbody id="trainTableBody">
+
+        </tbody>
+    </table>
+</div>
+
+<div class="tabs" id="tab2">
+
+    <div id="compartment">
+        <div id="left">
+            <table >
+                <thead>
+                    <th>Window</th>
+                    <th>Middle</th>
+                    <th>Aisle</th>
+                </thead>
+                <tbody id="leftTable"></tbody>
+            </table>
+        </div>
+        <div id="right">
+            <table >
+                <thead>
+                    <th>Aisle</th>
+                    <th>Middle</th>
+                    <th>Window</th>
+                </thead>
+                <tbody id="rightTable"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- <img class="seatimg" data-booked="false" src="../images/seatImg.svg"/>  -->
+</body>
+</html>

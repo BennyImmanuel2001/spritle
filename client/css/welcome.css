@@ -1,0 +1,53 @@
+.contaifner{
+    display: grid;
+    width: 80vw;
+    height: 80vh;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    margin-top: 10vh;
+    height: 88vh;
+}
+
+.heading
+{
+    font-size: xx-large;
+    margin: 0px;
+}
+.main{
+    /* background-color: honeydew; */
+    background-color: rgb(226, 218, 218);
+    padding: 10vh;
+    width: 60vw;
+    /* height: 80vh; */
+}
+body{
+        display: grid;
+        /* width: 80vw; */
+        height: 80vh;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+}
+
+.resetDb{
+    height: 38px;
+    padding: 10px;
+    color: white;
+    background-color: #13aa52;
+    border-radius: 10px;
+    outline: none;
+    border: navajowhite;
+    text-decoration: none;
+}
+.loginBtn{
+    height: 38px;
+    padding: 10px;
+    color: white;
+    background-color: #13aa52;
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    border: navajowhite;
+}

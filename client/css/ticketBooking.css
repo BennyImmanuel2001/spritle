@@ -1,0 +1,111 @@
+#compartment
+{
+  display: flex;
+  flex-direction: row;
+width:90%;
+}
+
+.seatimg
+{
+  height:5rem;
+  width:5rem;
+}
+/* .seat{
+  height: 5px;
+  width: 5px;
+} */
+#left
+{
+  /* background-color: grey; */
+  width: 50%;
+}
+#right
+{
+  /* background-color: rosybrown; */
+  width: 50%;
+}
+[data-booked="true"] {
+  filter:
+invert(39%) sepia(36%) saturate(2339%) hue-rotate( 
+  461deg
+   ) brightness(89%) contrast(11%);
+}
+[data-booked="now"] {
+
+filter: 
+invert(49%) sepia(15%) saturate(2476%) hue-rotate(
+-32deg
+) brightness(118%) contrast(119%)
+}
+[data-booked="false"] {
+  /* filter: invert(17%) sepia(13%) saturate(2458%) hue-rotate(26deg) brightness(89%) contrast(100%); */
+  filter: invert(17%) sepia(13%) saturate(2458%) hue-rotate(
+    26deg
+    ) brightness(89%) contrast(100%);
+  }
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  
+  padding: 8px;
+  text-align: center;
+    vertical-align: middle;
+}
+th {
+  background-color: #ee7f5d;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(odd) {
+  background-color: #c7c7c7;
+}
+tr {
+  height: 60px;
+}
+
+
+
+
+/* 
+
+
+
+
+#left [data-seatType="window"]
+{
+  position: relative;
+  left: 5%;
+}
+#left [data-seatType="middle"]
+{
+  position: relative;
+  left: 45%;
+}
+#left [data-seatType="aisle"]
+{
+  position: relative;
+  left: 85%;
+}
+#right [data-seatType="window"]
+{
+  position: relative;
+  left: 85%;
+}
+#right [data-seatType="middle"]
+{
+  position: relative;
+  left: 45%;
+}
+#right [data-seatType="aisle"]
+{
+  position: relative;
+  left: 5%;
+} */
